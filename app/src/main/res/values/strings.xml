@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">ShashankAssignment</string>
+    <string name="signup">Signup</string>
+    <string name="login">Login</string>
+    <string name="material_design_n_ui_kit_freebie">Material Design \n UI Kit Freebie</string>
+    <string name="lorem_ipsum_is_simply_dummy_text_of_printing_and_typesetting_industry">Lorem ipsum is simply dummy text of printing and typesetting industry.</string>
+    <string name="material_design_ui_kit_freebie">Material Design UI Kit Freebie</string>
+    <string name="username"><font size="14">Username</font></string>
+    <string name="email"><font size="14">Email</font></string>
+    <string name="password"><font size="14">Password</font></string>
+    <string name="country"><font size="14">Country</font></string>
+    <string name="city"><font size="14">City</font></string>
+    <string name="already_have_an_account_log_in">Already have an account? LOG IN!</string>
+    <string name="seems_glitch">Seems glitch. Please try again!</string>
+    <string name="login_coming_soon">Login coming soon</string>
+    <string name="feed">FEED</string>
 </resources>

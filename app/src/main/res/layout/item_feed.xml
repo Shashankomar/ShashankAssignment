@@ -6,9 +6,13 @@
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_16"
+        android:layout_marginTop="@dimen/dp_5"
+        android:layout_marginEnd="@dimen/dp_16"
+        android:layout_marginBottom="@dimen/dp_5"
         app:cardBackgroundColor="#ffffff"
-        app:cardCornerRadius="4dp"
-        app:cardElevation="5dp">
+        app:cardCornerRadius="@dimen/dp_4"
+        app:cardElevation="@dimen/dp_5">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -18,31 +22,31 @@
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp">
+                android:layout_marginStart="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginEnd="@dimen/dp_10">
 
-                <ImageView
+                <de.hdodenhof.circleimageview.CircleImageView
                     android:id="@+id/iv_user"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="@dimen/dp_40"
+                    android:layout_height="@dimen/dp_40"
                     android:layout_centerVertical="true" />
 
                 <TextView
                     android:id="@+id/tv_user_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="8dp"
+                    android:layout_marginStart="@dimen/dp_8"
                     android:layout_toStartOf="@id/iv_options"
                     android:layout_toEndOf="@id/iv_user"
                     android:fontFamily="sans-serif"
                     android:includeFontPadding="false"
-                    android:paddingStart="8dp"
-                    android:paddingLeft="8dp"
-                    android:paddingEnd="8dp"
-                    android:paddingRight="8dp"
-                    android:textColor="#ffe82c0c"
-                    android:textSize="14sp"
+                    android:paddingStart="@dimen/dp_8"
+                    android:paddingLeft="@dimen/dp_8"
+                    android:paddingEnd="@dimen/dp_8"
+                    android:paddingRight="@dimen/dp_8"
+                    android:textColor="@color/orange"
+                    android:textSize="@dimen/fontsize_14sp"
                     tools:text="Jordan Robinson" />
 
                 <TextView
@@ -50,19 +54,15 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@id/tv_user_name"
-                    android:layout_marginStart="8dp"
-                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="@dimen/dp_8"
                     android:layout_marginTop="3dp"
-                    android:layout_toLeftOf="@id/iv_options"
                     android:layout_toEndOf="@id/iv_user"
-                    android:layout_toRightOf="@id/iv_user"
                     android:fontFamily="sans-serif"
                     android:includeFontPadding="false"
-                    android:paddingStart="8dp"
-                    android:paddingEnd="8dp"
-                    android:paddingRight="8dp"
-                    android:textColor="#666666"
-                    android:textSize="12sp"
+                    android:paddingStart="@dimen/dp_8"
+                    android:paddingEnd="@dimen/dp_8"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/fontsize_12sp"
                     tools:text="Today, 1:45 pm" />
 
                 <androidx.appcompat.widget.AppCompatImageView
@@ -70,7 +70,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
-                    android:layout_alignParentRight="true"
                     android:layout_centerInParent="true"
                     android:src="@drawable/ic_combined_shape" />
 
@@ -79,25 +78,24 @@
             <ImageView
                 android:id="@+id/iv_thumbnail"
                 android:layout_width="match_parent"
-                android:layout_height="160dp"
-                android:layout_marginStart="5dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="5dp"
+                android:layout_height="@dimen/dp_160"
+                android:layout_marginTop="@dimen/dp_10"
                 android:background="@drawable/ic_mask"
+                android:foreground="@drawable/image_overlay"
                 tools:ignore="ContentDescription" />
 
             <TextView
                 android:id="@+id/tv_description"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:layout_marginBottom="10dp"
+                android:layout_marginStart="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_10"
+                android:layout_marginEnd="@dimen/dp_10"
+                android:layout_marginBottom="@dimen/dp_10"
                 android:fontFamily="sans-serif"
                 android:includeFontPadding="false"
-                android:textColor="#666666"
-                android:textSize="14sp"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/fontsize_14sp"
                 tools:text="Lorem ipsum is simply dummy text of the printing and typesetting industry." />
         </LinearLayout>
     </androidx.cardview.widget.CardView>

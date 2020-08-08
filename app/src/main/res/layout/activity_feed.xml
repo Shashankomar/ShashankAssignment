@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<layout>
+<layout xmlns:tools="http://schemas.android.com/tools">
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
+        android:orientation="vertical"
         android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/included_toolbar"
+            layout="@layout/include_toolbar" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_feed"
+            tools:listitem="@layout/item_feed"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_5"
+            android:layout_marginBottom="@dimen/dp_5" />
 
     </LinearLayout>
 </layout>
