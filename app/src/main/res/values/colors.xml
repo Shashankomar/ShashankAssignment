@@ -26,6 +26,7 @@
     <color name="black">#000000</color>
     <color name="grey">#F3EFEF</color>
     <color name="dark_grey">#666666</color>
+    <color name="navy">#36DEF4</color>
 
     <array name="array_dot_active">
         <item>@color/white</item>

@@ -14,4 +14,8 @@
     <string name="seems_glitch">Seems glitch. Please try again!</string>
     <string name="login_coming_soon">Login coming soon</string>
     <string name="feed">FEED</string>
+    <string name="_2_min_ago">2 min Ago</string>
+    <string name="tool_text">Shah Rukh Khan, Katrina Kaif and Anushka Sharma</string>
+    <string name="text_title">text count</string>
+    <string name="text_description">Demo Text</string>
 </resources>
